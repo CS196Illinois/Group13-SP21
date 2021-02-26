@@ -1,7 +1,7 @@
 # Group 13
 Group Name: TEAM_NAME
 
-[MVP Link](http://cs196.cs.illinois.edu)
+[MVP Link](https://docs.google.com/document/d/1CPZtaSfu0v3dPEaNS7ff5IFEBGqK5y4GaQ9G4yHAPj4/edit?usp=sharing)
 
 Team Members: ayushs5, benr2, chensi3, grenier3
 
