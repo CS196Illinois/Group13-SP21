@@ -13,7 +13,7 @@ from keras.layers import LSTM,Dropout,Dense
 from sklearn.preprocessing import MinMaxScaler
 
 #read the data from NSE-TATA.csv using pandas
-url = "F:\\CS196_project\\Group13-SP21\\Research\\chensi3\\NSE-TATA.csv"
+url = "F:\\CS196_project\\Group13-SP21\\Research\\chensi3\\stock_ML_test\\NSE-TATA.csv"
 df=pd.read_csv(url)
 df.head()
 
