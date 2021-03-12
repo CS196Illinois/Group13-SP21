@@ -1,0 +1,36 @@
+import nltk
+nltk.download('vader_lexicon')
+
+from nltk.sentiment.vader import SentimentIntensityAnalyzer
+sia = SentimentIntensityAnalyzer()
+
+sentences = ['Hello, world. I am terrible']
+for sentence in sentences:
+  print(sentence)
+  ss = sia.polarity_scores(sentence)
+  for k in sorted(ss):
+    print('{0}: {1}, '.format(k, ss[k]), end='')
+
+#article said it was good practice to shuffle data
+sampleData_slice = sampleData_df.sample(frac=1.0).reset_index(drop=True)
+
+# polarity score named Prediction into columns
+sampleData_slice['Prediction'] = sampleData_slice['Text'].apply(lambda x: 1 if sia.polarity_scores(x)['compound'] >= 0 else -1)
+
+
+# App/web dev, coding, machine learning etc. is very new to me so I chose to start with learning more front end concepts (HTML tutorial) to establish a good base to work 
+from. As for research, I found this article about algorithmic trading using sentiment analysis. The guy who built the program used VADER (Valence Aware Dictionary for 
+sEntiment Reasoning), a rule-based and lexicon analysis tool for determining sentiments in social media. In the MVP we wrote that we would likely be searching 
+through twitter and Reddit, social medias that would be supported under VADER's service. Additionally, NLTK, the NLP tool, has a module for VADER. We can calculate a 
+polarity score in each of the categories for being positive, neutral, negative, and a compound sentiment. The 5 main heuristics that are used are punctuation, capitalization, 
+degree modifiers, conjunctions, and precedingTri-gram (identification of reverse polarity). As for finding which data to analyze, we could just search for 
+keywords such as stock names and Given my limited experience and 
+knowledge, I can't say if any of my research is viable.
+
+Link to articles where I learned about sentiment analysis:
+https://towardsdatascience.com/https-towardsdatascience-com-algorithmic-trading-using-sentiment-analysis-on-news-articles-83db77966704
+https://towardsdatascience.com/sentiment-analysis-in-10-minutes-with-rule-based-vader-and-nltk-72067970fb71 
+
+
+Link to proof of tutorial:
+![Tutorial](https://user-images.githubusercontent.com/79489967/110871654-69661300-8294-11eb-8517-7d120f731bc5.png) 
