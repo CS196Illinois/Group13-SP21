@@ -20,44 +20,44 @@ Let students go over tutorials in react and ML to help them understand the tech 
 
 ### Sprint 2
 
-    **Front-End**
-    * Create React App
-    * Set-up basic page structure
-    * Make design decisions about site
-    * Start work on Homepage
+**Front-End**
+* Create React App
+* Set-up basic page structure
+* Make design decisions about site
+* Start work on Homepage
 
-    **Back-End**
-    * Decide on data set
-    * Decide on exact backend framework
-    * Start work on backend
+**Back-End**
+* Decide on data set
+* Decide on exact backend framework
+* Start work on backend
 
 - - - -
 
 ### Sprint 3
 
-    **Front-End**
-    * Finish up work on Homepage
-    * Finish outline for all components that the site will need
-    * Start work on other big pages on site
+**Front-End**
+* Finish up work on Homepage
+* Finish outline for all components that the site will need
+* Start work on other big pages on site
 
-    **Back-End**
-    * Get ML algorithm to start working on datasets
+**Back-End**
+* Get ML algorithm to start working on datasets
 
 - - - -
 
 ### Sprint 4
 
-    **Front-End**
-    * Finish up other pages on site
-    * Create components that will be ready to take in data from backend to display
+**Front-End**
+* Finish up other pages on site
+* Create components that will be ready to take in data from backend to display
 
-    **Back-End**
-    * Finish up on creating ML algorithm
-    * Finish up on creating and setting up Back-End
+**Back-End**
+* Finish up on creating ML algorithm
+* Finish up on creating and setting up Back-End
 
 - - - -
 
 ### Sprint 5
 
-    * Work to connect the Front and Back Ends together and finish the project!
-    * Any other little adjustments that need to be made to the project
+* Work to connect the Front and Back Ends together and finish the project!
+* Any other little adjustments that need to be made to the project
