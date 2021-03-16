@@ -12,3 +12,5 @@ npm start
 then simply go to localhost:3000 (or replace 3000 with whatever port the terminal gives that the site is running on) in any web browser.
 
 ## Back-End
+
+We will use a python environment
