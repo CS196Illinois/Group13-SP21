@@ -1,0 +1,199 @@
+
+jgren@DESKTOP-EPAHHDI MINGW64 ~
+$ cd CS 196
+bash: cd: too many arguments
+
+jgren@DESKTOP-EPAHHDI MINGW64 ~
+$ cd CS196
+
+jgren@DESKTOP-EPAHHDI MINGW64 ~/CS196
+$ cd Group-13-SP21
+bash: cd: Group-13-SP21: No such file or directory
+
+jgren@DESKTOP-EPAHHDI MINGW64 ~/CS196
+$ cd Group13-sp21
+
+jgren@DESKTOP-EPAHHDI MINGW64 ~/CS196/Group13-sp21 (Sprint-2)
+$ ls
+Docs/  Project/  README.md  Research/  saved_model.h5
+
+jgren@DESKTOP-EPAHHDI MINGW64 ~/CS196/Group13-sp21 (Sprint-2)
+$ cd Project
+
+jgren@DESKTOP-EPAHHDI MINGW64 ~/CS196/Group13-sp21/Project (Sprint-2)
+$ mkdir frontend
+
+jgren@DESKTOP-EPAHHDI MINGW64 ~/CS196/Group13-sp21/Project (Sprint-2)
+$ cd frontend
+
+jgren@DESKTOP-EPAHHDI MINGW64 ~/CS196/Group13-sp21/Project/frontend (Sprint-2)
+$ npx create-react-app Stock Analysis
+
+npx: installed 67 in 7.325s
+Cannot create a project named "Stock" because of npm naming restrictions:
+
+  * name can no longer contain capital letters
+
+Please choose a different project name.
+
+jgren@DESKTOP-EPAHHDI MINGW64 ~/CS196/Group13-sp21/Project/frontend (Sprint-2)
+$
+
+jgren@DESKTOP-EPAHHDI MINGW64 ~/CS196/Group13-sp21/Project/frontend (Sprint-2)
+$ npx create-react-app G13
+cd G13
+npm stanpx: installed 67 in 7.326s
+rtCannot create a project named "G13" because of npm naming restrictions:
+
+  * name can no longer contain capital letters
+
+Please choose a different project name.
+
+jgren@DESKTOP-EPAHHDI MINGW64 ~/CS196/Group13-sp21/Project/frontend (Sprint-2)
+$ cd G13
+bash: cd: G13: No such file or directory
+
+jgren@DESKTOP-EPAHHDI MINGW64 ~/CS196/Group13-sp21/Project/frontend (Sprint-2)
+$ npx create-react-app g-13
+
+
+
+
+
+npx: installed 67 in 6.438s
+
+Creating a new React app in C:\Users\jgren\CS196\Group13-sp21\Project\frontend\g-13.
+
+Installing packages. This might take a couple of minutes.
+Installing react, react-dom, and react-scripts with cra-template...
+
+
+> core-js@2.6.12 postinstall C:\Users\jgren\CS196\Group13-sp21\Project\frontend\g-13\node_modules\babel-runtime\node_modules\core-js
+> node -e "try{require('./postinstall')}catch(e){}"
+
+
+> core-js@3.9.1 postinstall C:\Users\jgren\CS196\Group13-sp21\Project\frontend\g-13\node_modules\core-js
+> node -e "try{require('./postinstall')}catch(e){}"
+
+
+> core-js-pure@3.9.1 postinstall C:\Users\jgren\CS196\Group13-sp21\Project\frontend\g-13\node_modules\core-js-pure
+> node -e "try{require('./postinstall')}catch(e){}"
+
+
+> ejs@2.7.4 postinstall C:\Users\jgren\CS196\Group13-sp21\Project\frontend\g-13\node_modules\ejs
+> node ./postinstall.js
+
++ react-scripts@4.0.3
++ cra-template@1.1.2
++ react@17.0.2
++ react-dom@17.0.2
+added 1920 packages from 731 contributors and audited 1923 packages in 138.106s
+
+133 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+
+Installing template dependencies using npm...
+npm WARN @babel/plugin-bugfix-v8-spread-parameters-in-optional-chaining@7.13.12 requires a peer of @babel/core@^7.13.0 but none is installed. You must install peer dependencies yourself.
+npm WARN tsutils@3.21.0 requires a peer of typescript@>=2.8.0 || >= 3.2.0-dev || >= 3.3.0-dev || >= 3.4.0-dev || >= 3.5.0-dev || >= 3.6.0-dev || >= 3.6.0-beta || >= 3.7.0-dev || >= 3.7.0-beta but none is installed. You must install peer dependencies yourself.
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@2.3.2 (node_modules\fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@2.3.2: wanted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@1.2.13 (node_modules\watchpack-chokidar2\node_modules\fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@1.2.13: wanted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@1.2.13 (node_modules\webpack-dev-server\node_modules\fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@1.2.13: wanted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"})
+
++ @testing-library/user-event@12.8.3
++ web-vitals@1.1.1
++ @testing-library/react@11.2.5
++ @testing-library/jest-dom@5.11.9
+added 29 packages from 78 contributors and audited 1952 packages in 32.547s
+
+133 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+Removing template package using npm...
+
+npm WARN @babel/plugin-bugfix-v8-spread-parameters-in-optional-chaining@7.13.12 requires a peer of @babel/core@^7.13.0 but none is installed. You must install peer dependencies yourself.
+npm WARN tsutils@3.21.0 requires a peer of typescript@>=2.8.0 || >= 3.2.0-dev || >= 3.3.0-dev || >= 3.4.0-dev || >= 3.5.0-dev || >= 3.6.0-dev || >= 3.6.0-beta || >= 3.7.0-dev || >= 3.7.0-beta but none is installed. You must install peer dependencies yourself.
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@1.2.13 (node_modules\watchpack-chokidar2\node_modules\fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@1.2.13: wanted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@2.3.2 (node_modules\fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@2.3.2: wanted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@1.2.13 (node_modules\webpack-dev-server\node_modules\fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@1.2.13: wanted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"})
+
+removed 1 package and audited 1951 packages in 21.124s
+
+133 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+
+Success! Created g-13 at C:\Users\jgren\CS196\Group13-sp21\Project\frontend\g-13
+Inside that directory, you can run several commands:
+
+  npm start
+    Starts the development server.
+
+  npm run build
+    Bundles the app into static files for production.
+
+  npm test
+    Starts the test runner.
+
+  npm run eject
+    Removes this tool and copies build dependencies, configuration files
+    and scripts into the app directory. If you do this, you can’t go back!
+
+We suggest that you begin by typing:
+
+  cd g-13
+  npm start
+
+Happy hacking!
+
+jgren@DESKTOP-EPAHHDI MINGW64 ~/CS196/Group13-sp21/Project/frontend (Sprint-2)
+$
+
+jgren@DESKTOP-EPAHHDI MINGW64 ~/CS196/Group13-sp21/Project/frontend (Sprint-2)
+$
+
+jgren@DESKTOP-EPAHHDI MINGW64 ~/CS196/Group13-sp21/Project/frontend (Sprint-2)
+$
+
+jgren@DESKTOP-EPAHHDI MINGW64 ~/CS196/Group13-sp21/Project/frontend (Sprint-2)
+$
+
+jgren@DESKTOP-EPAHHDI MINGW64 ~/CS196/Group13-sp21/Project/frontend (Sprint-2)
+$
+
+jgren@DESKTOP-EPAHHDI MINGW64 ~/CS196/Group13-sp21/Project/frontend (Sprint-2)
+$ cd g-13
+
+jgren@DESKTOP-EPAHHDI MINGW64 ~/CS196/Group13-sp21/Project/frontend/g-13 (Sprint-2)
+$ npm start
+
+> g-13@0.1.0 start C:\Users\jgren\CS196\Group13-sp21\Project\frontend\g-13
+> react-scripts start
+
+i ｢wds｣: Project is running at http://192.168.7.49/
+i ｢wds｣: webpack output is served from
+i ｢wds｣: Content not from webpack is served from C:\Users\jgren\CS196\Group13-sp21\Project\frontend\g-13\public
+i ｢wds｣: 404s will fallback to /
+Starting the development server...
+
+Compiled successfully!
+
+You can now view g-13 in the browser.
+
+  Local:            http://localhost:3000
+  On Your Network:  http://192.168.7.49:3000
+
+Note that the development build is not optimized.
+To create a production build, use npm run build.
