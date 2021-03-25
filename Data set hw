@@ -1,0 +1,7 @@
+The three main stock market data sets that kept reappearing in the articles I was reading were the ‘historical stock market data set’, ‘news and stock data’, and ‘stock market from a high level’. I specifically searched articles that reflected data sets best for machine learning and being easily accessible. For example, the ‘historical stock market data set’ and ‘stock market from a high-level’ are both CSV file format and the data is updated up to 2017 so it is relatively current. ‘Historical stock market data set’ has ETF Trading on NASDAQ, NYSE, and NYSE MKTand information for US stocks. Additionally, if we were still planning on following the machine learning based on social media, it would be ideal to use ‘News and stock data’ because they supply historical news headlines and such that appear on the r/Worldnews subreddit in addition to including Dow Jones Industrial Average data.
+
+Historical Stock Market Dataset - https://www.kaggle.com/borismarjanovic/price-volume-data-for-all-us-stocks-etfs
+
+News and Stock Data - https://www.kaggle.com/aaron7sun/stocknews
+
+Stock Market from a High Level - https://data.world/chasewillden/stock-market-from-a-high-level
