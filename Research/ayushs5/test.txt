@@ -1,0 +1,15 @@
+Yahoo finance API
+I believe this is the ideal tool for our application. Based on the user choice, we can create a get request to the Yahoo finance API for historical and current data, along with the latest news headlines for that company(which we can potentially use for NLP if we get the time). Besides the data being used to train our algorithms, Yahoo also provides ready-made charts and graphs which we can display. This would save a ton of time but create get requests every time might be time-consuming and make our app slow. Although we can use low-level caching where we store some data in the database, as the stock data changes daily, a simple application would work better and is much simpler to use. 
+
+Algorithms
+The domain of stock data predictions falls in the category of time series forecasting. It is a regression problem. 
+LSTM is extremely popular for these purposes due to its ability to store past information which is essential and discard that is not. It has some other improvements over conventional ANNs and RNNs, especially in time-series predictions.
+Also, I believe using an ensemble of algorithms like RNNs, LSTMs, and SVMs and averaging the predictions can give us much better results.
+What features can we use?
+There are two significant categories of algorithm features which we can focus on :
+1.	Historical Stock data
+This includes understanding when a particular company pumps out products, leading to an increase in stock prices or releasing its quarterly reports and future plans, affecting investor interests throughout a year.
+1.	Using other companies stock data 
+Most companies are not standalone. Their supply chains are interlinked with many other industries and companies. This has become especially prevalent in the covid-19 crises. Modeling these relationships & assessing the impacts from one sector to other enterprises can provide some valuable information to our users.
+Lastly, we can combine both of the above features and create even more accurate forecasts.
+
