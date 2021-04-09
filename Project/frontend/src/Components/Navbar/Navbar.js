@@ -34,7 +34,7 @@ const Navbar = (props) => {
           <Typography variant="h6" className={classes.title}>
             Stock Analytics
           </Typography>
-          <Button color="inherit">Login</Button>
+          <Link to="/">Home</Link>
         </Toolbar>
       </AppBar>
     </div>
