@@ -1,6 +1,6 @@
 import React from 'react';
-import logo from './logo.svg';
 import'./Home.css';
+import logo from '../../images/Analytica.png'
 
 const Home = (props) => {
 
