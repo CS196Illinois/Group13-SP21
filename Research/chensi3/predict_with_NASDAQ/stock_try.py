@@ -13,7 +13,7 @@ from keras.layers import LSTM,Dropout,Dense
 from sklearn.preprocessing import MinMaxScaler
 
 #read the data from NASDAQ Apple data.csv using pandas
-url = "F:\\CS196_project\\TRY\\NASDAQBaidudata.csv"
+url = "F:\\CS196_project\\Group13-SP21\\Research\\chensi3\\predict_with_NASDAQ\\NASDAQStarbucksdata.csv"
 df=pd.read_csv(url)
 df.head()
 
@@ -52,8 +52,8 @@ x_train_data=np.reshape(x_train_data,(x_train_data.shape[0],x_train_data.shape[1
 
 #Use LSTM to train the model
 lstm_model=Sequential()
-lstm_model.add(LSTM(units=128,return_sequences=True,input_shape=(x_train_data.shape[1],1)))
-lstm_model.add(LSTM(units=128))
+lstm_model.add(LSTM(units=100,return_sequences=True,input_shape=(x_train_data.shape[1],1)))
+lstm_model.add(LSTM(units=100))
 lstm_model.add(Dense(1))
 inputs_data=new_dataset[len(new_dataset)-len(valid_data)-50:].values
 inputs_data=inputs_data.reshape(-1,1)

@@ -13,7 +13,7 @@ from keras.layers import LSTM,Dropout,Dense
 from sklearn.preprocessing import MinMaxScaler
 
 #read the data from NASDAQ Apple data.csv using pandas
-url = "F:\\CS196_project\\Group13-SP21\\Project\\Backend\Model\\NASDAQAppledata.csv"
+url = "F:\\CS196_project\\Group13-SP21\\Project\\Backend\Model\\AAPL-0415.csv"
 df=pd.read_csv(url)
 df.head()
 
@@ -87,7 +87,8 @@ for i in range(20):
         standard = diff
         flag = True
         #save the model
-        lstm_model.save("saved_model.h5")
+        plt.clf()
+        lstm_model.save("AAPL-0415.h5")
         plt.plot(train_data["Close"])
         plt.plot(valid_data[['Close',"Predictions"]])
         plt.title(str(i))
