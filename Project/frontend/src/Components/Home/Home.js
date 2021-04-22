@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from '../../images/Analytica.png';
+import logo from '../../images/Analytica LOGO.png';
 import'./Home.css';
 import Button from "@material-ui/core/Button";
 
@@ -14,7 +14,7 @@ const Home = (props) => {
         </p>
         <a
         >
-          Click <Button color="primary">Explore</Button> to pick which industries you want us to analyze! 
+          Click <Button href="/explore" color="primary">Explore</Button> to pick which industries you want us to analyze! 
         </a>
       </header>
     </div>
