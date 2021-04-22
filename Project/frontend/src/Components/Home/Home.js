@@ -1,19 +1,20 @@
 import React from 'react';
+import logo from '../../images/Analytica.png';
 import'./Home.css';
-import logo from '../../images/Analytica.png'
+import Button from "@material-ui/core/Button";
 
 const Home = (props) => {
 
     return (
         <div className="Home">
-      <header className="Home-header">
+        <header className="Home-header">
         <img src={logo} className="Home-logo" alt="logo" />
         <p>
           Stock Prediction At Your Fingertips.
         </p>
         <a
         >
-          Placeholder
+          Click <Button color="primary">Explore</Button> to pick which industries you want us to analyze! 
         </a>
       </header>
     </div>
