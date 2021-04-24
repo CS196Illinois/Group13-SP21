@@ -1,0 +1,29 @@
+.Explore {
+    text-align: center;
+    background-color: #282c34;
+    min-height: 100vh;
+    align-items: left;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+
+.Explore-header {
+    color: white;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 70%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+ 
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
