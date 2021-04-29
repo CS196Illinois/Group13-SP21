@@ -5,25 +5,45 @@
     align-items: left;
     justify-content: center;
     font-size: calc(10px + 2vmin);
-    color: white;
+    color: black;
 }
 
 .Explore-header {
-    color: white;
+    color: black;
+    height: 400px;
 }
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    background-color: DodgerBlue;
+  }
+  
+  .flex-container > div {
+    display: flex;
+    flex-direction: row;
+    background-color: #f1f1f1;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75;
+    font-size: 30px;
+  }
 
 table {
     font-family: arial, sans-serif;
     border-collapse: collapse;
     width: 70%;
+    justify-content: center;
+    margin: auto;
 }
 
 td, th {
-    border: 1px solid #dddddd;
+    border: 1px solid black;
     text-align: left;
     padding: 8px;
 }
  
 tr:nth-child(even) {
-    background-color: #dddddd;
+    background-color: #dddddd59;
 }

@@ -8,7 +8,7 @@ import Typography from '@material-ui/core/Typography';
 import Button from '@material-ui/core/Button';
 import IconButton from '@material-ui/core/IconButton';
 //import MenuIcon from '@material-ui/icons/Menu';
-import logo from '../../images/Analytica LOGO.png';
+import logo from '../../images/Analytica.png';
 import { Link } from 'react-router-dom';
 
 const useStyles = makeStyles((theme) => ({
@@ -29,15 +29,15 @@ const Navbar = (props) => {
     <div className={classes.root}>
       <AppBar position="fixed">
         <Toolbar>
-          <IconButton edge="start" className={classes.menuButton} color="inherit" aria-label="menu">
+          <IconButton edge="start" className={classes.menuButton} color="Secondary" aria-label="menu">
             {/* <MenuIcon /> */}
           </IconButton>
           <Typography variant="h6" className={classes.title}>
-            {/* <img src={logo} className="Navbar-logo" alt="logo"/>  */} | Stock Analytics
+            <img src={logo} className="Navbar-logo" alt="logo"/> | Stock Analytics
           </Typography>
-          <Button href="/" color="red">Home</Button>
-          <Button href="/explore" color="red">Explore</Button>
-          <Button href="/insights" color="red">Insights</Button>
+          <Button href="/" color="inherit">Home</Button>
+          <Button href="/explore" color="inherit">Explore</Button>
+          <Button href="/insights" color="inherit">Insights</Button>
         </Toolbar>
       </AppBar>
     </div>
