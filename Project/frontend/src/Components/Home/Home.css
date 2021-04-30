@@ -16,3 +16,9 @@
     font-size: calc(10px + 2vmin);
     color: white;
 }
+
+.Line {
+    align-items: center;
+    justify-content: center;
+    z-index: -1;
+}

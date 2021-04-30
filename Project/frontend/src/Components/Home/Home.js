@@ -2,11 +2,13 @@ import React from 'react';
 import logo from '../../images/Analytica.png';
 import'./Home.css';
 import Button from "@material-ui/core/Button";
+import line from '../../images/line.png';
 
 const Home = (props) => {
     return (
         <div className="Home">
         <header className="Home-header">
+        <img src={line} className="Line" alt="line"/>
         <img src={logo} className="Home-logo" alt="logo"/>
         <p>
           Stock Prediction At Your Fingertips.
