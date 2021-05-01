@@ -6,6 +6,7 @@
     padding-top: 50px;
     height: 35vmin;
     pointer-events: none;
+    z-index: 3;
 }
 
 .Home-header {
@@ -20,6 +21,10 @@
 .Line {
     align-items: center;
     justify-content: center;
-    z-index: -1;
-    top: 20px;
+    z-index: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }

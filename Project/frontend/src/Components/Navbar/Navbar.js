@@ -35,9 +35,9 @@ const Navbar = (props) => {
           <Typography variant="h6" className={classes.title}>
             <img src={logo} className="Navbar-logo" alt="logo"/> | Stock Analytics
           </Typography>
-          <Button href="/" color="inherit">Home</Button>
-          <Button href="/explore" color="inherit">Explore</Button>
-          <Button href="/insights" color="inherit">Insights</Button>
+          <Button href="/" color="inherit" size="large">Home</Button>
+          <Button href="/explore" color="inherit" size="large">Explore</Button>
+          <Button href="/insights" color="inherit" size="large">Insights</Button>
         </Toolbar>
       </AppBar>
     </div>

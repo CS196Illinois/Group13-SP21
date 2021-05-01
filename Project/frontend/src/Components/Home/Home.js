@@ -8,13 +8,13 @@ const Home = (props) => {
     return (
         <div className="Home">
         <header className="Home-header">
-        <img src={line} className="Line" alt="line"/>
         <img src={logo} className="Home-logo" alt="logo"/>
+        <img src={line} className="Line" alt="line"/>
         <p>
           Stock Prediction At Your Fingertips.
         </p>
         <a>
-          Click <Button size="medium" href="/explore" color="primary">Explore</Button> to pick which industries you want us to analyze! 
+          Click <Button href="/explore" color="primary" size="large">Explore</Button> to pick which industries you want us to analyze! 
         </a>
       </header>
     </div>

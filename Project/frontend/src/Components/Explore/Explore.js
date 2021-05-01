@@ -1,26 +1,25 @@
 import React from 'react';
 import './Explore.css';
 import { Link } from 'react-router-dom';
-//import amazon from '../../images/Amazon.png';
-//import apple from '../../images/Apple.png';
-//import fb from '../../images/fb.png';
-//import sb from '../../images/Starbucks.png';
+import amazon from '../../images/Amazon.webp';
+import apple from '../../images/Apple.png';
+import fb from '../../images/fb.png';
+import sb from '../../images/sb.png';
 
 const Explore = (props) => {
 
     return (
         <div class="flex-container" className="Explore">
             {/* <div><img src={amazon} className="Amazon-logo" alt="amazon" /></div> */}
-            <div>1</div>
-            <div>2</div>
-            <div>3</div>
-            <div>4</div>
+            <div className="flex-container">
+            <div><img src={amazon} className="amazon" alt="amazon"/></div>
+            <div><img src={apple} className="apple" alt="apple"/></div>
+            <div><img src={fb} className="fb" alt="fb"/></div>
+            <div><img src={sb} className="sb" alt="sb"/></div>
+            </div>
             <header className="Explore-header">Explore</header>
-            <p>Mini Excerpt about what's going on on this page</p>
-            <h2 className="Apple-Header"></h2>
-            <h2 className="Starbucks-Header"></h2>
-            <h2 className="Amazon-Header"></h2>
-            <h2 className="Facebook-Header"></h2>
+            <p>We have four companies for you to choose from! 
+            </p>
             <table>
                 <tr>
                     <th>Company</th>
